@@ -135,8 +135,8 @@ export default function Events({ path: pathname, limit = API_LIMIT } = {}) {
                     <Td className="w-40">
                       <a href={`/events/${id}`} ref={ref} data-start-time={startTime} data-reached-end={reachedEnd}>
                         <img
-                          width="150"
-                          height="150"
+                          width="100"
+                          height="100"
                           style="min-height: 48px; min-width: 48px;"
                           src={`${apiHost}/api/events/${id}/thumbnail.jpg`}
                         />
